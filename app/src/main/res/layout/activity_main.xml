@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/chima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:src="@drawable/cima"
+        android:adjustViewBounds="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHIMA SAYANG"
+        android:textSize="24sp"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold"
+        android:layout_alignBottom="@id/chima"
+        android:layout_alignStart="@id/chima"/>
+
+    <TextView
+        android:id="@+id/risma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RISMA SYAFIRA EKA WATI"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:textSize="16sp"
+        android:layout_below="@id/chima"/>
+    <TextView
+        android:id="@+id/paragraf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_below="@id/risma"
+        android:text="Lorem dsafdsjklfhsdjkfhsdjkf hdfhigfjksgfhsj  kfghsdjkfsdgfjksdgfkjsdgfjksdfgsddgfsdgfhsdgfsdkfgsdkfgsdfhdsgfjhsdgfsdgfsdfgdshjfgsdhfjgdguifdghudfgdfjkhgfdhjgfdhgfg gsdfhjsdgfdshgfsdj ghfgsdfgsdfhsdgfdghdsg hfjgsddgsfgdgsdhfgsdg ipsum dolor sit amet consectetur adipisicing elit. Quo laboriosam voluptates, omnis sequi pariatur fugit ratione incidunt magni at voluptatibus a recusandae voluptatum magnam, debitis tempore! Placeat necessitatibus sunt alias!"
+        />
+    <TextView
+        android:id="@+id/dimas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIMAS DAN RISMA"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/paragraf"
+        android:paddingTop="10dp"/>
+    <TextView
+        android:id="@+id/kepala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kepala"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_below="@id/dimas"
+        android:paddingTop="10dp"/>
+    <TextView
+        android:id="@+id/sandy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIMAS SANDY YOLANDA"
+        android:textSize="16sp"
+        android:layout_toEndOf="@id/kepala"
+        android:layout_below="@id/dimas"
+        android:layout_centerHorizontal="true"
+     android:paddingTop="10dp"
+        android:paddingStart="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wakil"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/kepala"
+        android:paddingTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RISMA SYAFIRA EKA WATI DAN ANAK-ANAK KITA"
+        android:textSize="16sp"
+        android:layout_below="@id/sandy"
+        android:layout_toEndOf="@id/kepala"
+        android:paddingTop="10dp"
+        android:paddingStart="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SENT"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:outlineAmbientShadowColor="@color/purple_200"
+        android:shadowColor="@color/purple_200"
+        android:outlineSpotShadowColor="@color/cardview_light_background"/>
+</RelativeLayout>
